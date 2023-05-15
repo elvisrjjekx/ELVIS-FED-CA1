@@ -1,0 +1,81 @@
+@charset "utf-8";
+
+/* 
+Author: Elvis Sim
+Date: 8/5/2023
+
+Filename: styles.css
+*/
+
+/*Styling Page*/
+html{ 
+    overflow-x: hidden;
+    overflow-y: scroll;
+    font-family:system-ui, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+/* Styling Nav Bar */
+
+.navigationbar li, .opinionnavigationbar li{
+    display: inline;
+    margin: 50px;
+}
+
+.navigationbar a, .opinionnavigationbar a{ 
+    color: white;
+    font-size: 25px;
+    text-decoration: none;
+    padding: 3px;
+}
+
+.navigationbar a:hover , .opinionnavigationbar a:hover{
+    border: 3px white solid;
+    color: #f0e2c0;
+    border-radius: 10px;
+    transition: 0.4s;
+    text-decoration:bold;
+    margin: 6px;
+}
+
+/* Styling catchphrase */
+
+.catchphrase a {
+    font-size: 3.5em;
+    font-weight: bolder;
+    color: #04084f;
+    text-decoration: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin: 10px;
+}
+
+.catchphrase a:hover {
+    border: 5px #f0e2c0 solid;
+    color: white;
+    border-radius: 15px;
+    transition: 0.5s;
+}
+
+/* Styling Global Warming */
+.globalwarming{
+    outline: 3px green dashed;
+}
+/* Styling my opinon */
+.hero {
+    background-color: white;
+    color: white;
+    outline: 3px orange dashed;
+}
+
+section#opinion {
+    outline: 3px purple dashed;
+}
+/* Styling methods to help */
+.methods h1{
+    color: #335233;
+}
+
+.methods p {
+    font-size: large;
+    line-height: 1.4em;
+}

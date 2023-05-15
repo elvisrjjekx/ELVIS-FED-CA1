@@ -1,0 +1,111 @@
+@charset "utf-8";
+
+/* 
+Author: Elvis Sim
+Date: 8/5/2023
+
+Filename: styletrial.css
+*/
+
+/*Styling Page*/
+html{
+    /*background-color: #CED0C0;
+    background-image: url(background.png);
+    /* Source: https://www.pexels.com/photo/white-painted-wall-3616764/ by La Miko */
+}
+
+/* Style for ALL Headers */
+h1 {color: #2F4C29;
+    font-size: 1.6em;
+    padding-left: 5px;
+}
+
+h1#name {font-size: 2em;}
+
+/* Style for ALL Paragraphs */
+p {font-family: Arial, Helvetica, sans-serif;
+   font-size: large;
+   line-height: 1.4em;
+   padding-left: 10px;
+   
+}
+
+/* Style for ALL Lists */
+li {margin: 5px;}
+
+/* Style for Content Bar */
+.contentbar {background-color: #404040;
+             border: 5px #555a61 solid;
+             font-size: 1.2em;
+             font-weight: bold;          
+}
+
+.contentbar a {color: white;
+              font-family: "Bebas Neue", serif;
+}
+
+.contentbar a:hover{text-decoration: underline;
+                    color: orange;
+}
+/* FIRST PAGE WELCOME PAGE */
+.catchphrase {color:black;}   
+
+/* FOURTH PAGE ABOUT ME PAGE */
+/* Style for Introduction */
+.introduction h1 {font-size: 2em;
+                  padding-left: 10px;
+}
+
+/* Style for My Values */
+.values h1 {font-size: 1.7em;
+            
+}
+
+.values li#integrity, .values li#respect, .values li#patience {background: linear-gradient(45deg,#b3b089, #d1cea1);
+                                                               width: 520px;
+                                                               height: 50px;
+                                                               border: 3px #4d4d4d solid;
+                                                               border-radius: 10px;
+                                                               padding-left: 7px;          
+                                                               font-size: large;
+}
+
+/* Style for My Interest*/
+.interest {background:linear-gradient(90deg,#bdbcb5, #C6C398);
+           border: 3px #4d4d4d solid;
+           border-radius: 5px;         
+}
+
+/* Style for My Personality */
+.personality {background:linear-gradient(90deg,#C6C398, #bdbcb5);
+              border: 3px #4d4d4d solid;
+              border-radius: 5px;
+}
+
+/* Style for Image */
+img#macritchie {border-radius: 15px;
+                box-shadow: black 15px 15px 30px;
+                filter:brightness(1.3);
+}
+
+.forest figcaption {color:black;
+                    font-size: large;
+                    font-weight: 500;
+}
+
+
+/* SECOND PAGE WHAT CAN WE DO */
+/* Style for What is Global Warming?*/
+.globalwarming {
+    color:red;}
+
+.globalwarming h1 {margin:0px;}
+
+/* Style for My Opinion */
+.opinion {border: 5px #4d4d4d solid;
+          border-radius: 15px;
+          background:linear-gradient(90deg,#C6C398, #bdbcb5);
+}
+
+/* Style for Methods To Help */
+

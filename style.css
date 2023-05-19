@@ -73,3 +73,22 @@ section#opinion {
     font-size: large;
     line-height: 1.4em;
 }
+
+/*STYLE FOR 3RD PAGE, ACTIONS TAKEN BY SP */
+/* Style for the top of the page*/
+.boss{
+    background-color: dimgray;
+}
+
+/*Style for rest of the page */
+.actionstaken{  
+    background-color: #faf5e9;
+}
+/* Style for things SP done */
+.plants, .sensors, .CCC, .greenmark {
+    background-color: white;
+}
+/*Style for Environmental Sustainability in SP */
+.sustainability{
+    color: #faf5e9;
+}

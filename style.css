@@ -6,23 +6,24 @@ html{
     overflow-x: hidden;
     overflow-y: scroll;
     font-family:system-ui, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: #CEC7BF;
 }
 
 /* Styling Nav Bar */
 
-.navigationbar li, .opinionnavigationbar li{
+.navigationbar li{
     display: inline;
     margin: 50px;
 }
 
-.navigationbar a, .opinionnavigationbar a{ 
+.navigationbar a{ 
     color: white;
     font-size: 25px;
     text-decoration: none;
     padding: 3px;
 }
 
-.navigationbar a:hover , .opinionnavigationbar a:hover{
+.navigationbar a:hover {
     border: 3px white solid;
     color: #f0e2c0;
     border-radius: 10px;
@@ -50,20 +51,13 @@ html{
     transition: 0.5s;
 }
 
-/* Styling Global Warming */
-.globalwarming{
-    outline: 3px green dashed;
-}
+
 /* Styling my opinon */
 .hero {
     background-color: white;
     color: white;
-    outline: 3px orange dashed;
 }
 
-section#opinion {
-    outline: 3px purple dashed;
-}
 /* Styling methods to help */
 .methods h1{
     color: #335233;
@@ -81,12 +75,10 @@ section#opinion {
 }
 
 /*Style for rest of the page */
-.actionstaken{  
-    background-color: #faf5e9;
-}
+
 /* Style for things SP done */
-.plants, .sensors, .CCC, .greenmark {
-    background-color: white;
+.plants, .sensors, .CCC, .greenmark, .moreinfo {
+    background-color: #c2bab0;
 }
 /*Style for Environmental Sustainability in SP */
 .sustainability{

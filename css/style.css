@@ -73,11 +73,11 @@ section#opinion p {
 }
 
 .publictransport, .electricity, .foodwaste {
-    background-color: #c2bab0;
+    background: linear-gradient(90deg,#bfb19f, #c2bab0 );
     box-shadow: black 2px 5px 15px;
 }
 
-/*STYLE FOR 3RD PAGE, ACTIONS TAKEN BY SP */
+/*STYLE FOR, ACTIONS TAKEN BY SP */
 /* Style for the top of the page*/
 .boss{
     background-color: dimgray;
@@ -89,6 +89,10 @@ section#opinion p {
 .plants, .CCC, .sensors, .greenmark, .moreinfo {
     background-color: #c2bab0;
 }
+.plants img, .CCC img, .sensors img, .greenmark img{
+    filter:saturate(120%);
+}
+
 .moreinfo a{
     color: black;
     font-weight: bold;
@@ -108,7 +112,7 @@ section#opinion p {
     color: white;
 }
 
-/* STYLE FOR 4TH PAGE ABOUT ME */
+/* STYLE FOR PAGE ABOUT ME */
 .introduction {
     color: white;
 }
@@ -130,4 +134,17 @@ li#integrity, li#respect, li#patience {
 }
 li#integrity b, li#respect b, li#patience b {
     color: #335233;
+}
+
+/* Style for Images*/
+.riflerange, .trail, .frog {
+    filter:saturate(110%);
+}
+
+.riflerange {
+    filter:sepia(20%);
+}
+
+.trail {
+    filter:sepia(60%);
 }

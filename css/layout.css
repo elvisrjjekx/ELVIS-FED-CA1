@@ -365,6 +365,7 @@ section#opinion p {
 .riflerange, .trail, .frog {
       border-radius: 10px;
       outline: 7px #c2bab0 solid;
+      
 }
 .riflerange {
       grid-column: 2;
@@ -375,9 +376,6 @@ section#opinion p {
       
       width: 540px;
       height: 350px;
-}
-.riflerange figcaption {
-      position: relative;
 }
 .trail {
       grid-column: 3;

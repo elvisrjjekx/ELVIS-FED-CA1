@@ -1,0 +1,9 @@
+Github Repo Link:
+https://github.com/elvisrjjekx/ELVIS-FED-CA1.git
+
+5 Features implemented:
+- Add a background image
+- Add a border to an element
+- Create text or box shadow
+- Create linear or radial gradient
+- Apply a CSS filter

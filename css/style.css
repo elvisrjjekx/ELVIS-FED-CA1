@@ -29,7 +29,7 @@ html{
     border-radius: 10px;
     transition: 0.4s;
     text-decoration:bold;
-    margin: 6px;
+    text-shadow: black 5px 5px 10px;
 }
 
 /* Styling catchphrase */
@@ -42,6 +42,7 @@ html{
     padding-top: 10px;
     padding-bottom: 10px;
     margin: 10px;
+    text-shadow: dimgrey 3px 3px 10px;
 }
 
 .catchphrase a:hover {
@@ -68,6 +69,7 @@ section#opinion p {
 /* Styling methods to help */
 .methods h1{
     color: #335233;
+    text-shadow: dimgray 2px 2px 5px;
 }
 
 .methods p {
@@ -79,7 +81,9 @@ section#opinion p {
     background: linear-gradient(90deg,#bfb19f, #c2bab0 );
     box-shadow: black 2px 5px 15px;
 }
-
+.publictransport:hover, .electricity:hover, .foodwaste:hover {
+    font-weight: 600;
+}
 /*STYLE FOR, ACTIONS TAKEN BY SP */
 /* Style for the top of the page*/
 .boss{
@@ -91,6 +95,7 @@ section#opinion p {
 /* Style for things SP done */
 .plants, .CCC, .sensors, .greenmark, .moreinfo {
     background-color: #c2bab0;
+    box-shadow: black 10px 10px 15px;
 }
 .plants img, .CCC img, .sensors img, .greenmark img{
     filter:saturate(120%);
@@ -110,9 +115,11 @@ section#opinion p {
 /*Style for Environmental Sustainability in SP */
 .sustainability h1{
     color: #faf5e9;
+    text-shadow: black 5px 5px 10px;
 }
 .sustainability {
     color: white;
+    text-shadow: black 5px 5px 10px;
 }
 
 /* STYLE FOR PAGE ABOUT ME */
@@ -121,6 +128,7 @@ section#opinion p {
 }
 .introduction h1 {
     color: #faf5e9;
+    text-shadow: black 5px 5px 10px;
 }
 .introduction p {
     background-color: rgba(0,0,0,0.2);
@@ -138,6 +146,7 @@ section#opinion p {
 }
 .values h1, .interest h1, .personality h1 {
     color: #335233;
+    text-shadow: dimgray 2px 2px 4px;
 }
 li#integrity, li#respect, li#patience {
     background: linear-gradient(90deg,#bfb19f, #c2bab0 );

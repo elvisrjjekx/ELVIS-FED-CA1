@@ -58,6 +58,10 @@ html{
     color: white;
 }
 
+section#opinion p {
+    background-color: rgba(0,0,0,0.2);
+}
+
 /* Styling methods to help */
 .methods h1{
     color: #335233;
@@ -66,6 +70,11 @@ html{
 .methods p {
     font-size: large;
     line-height: 1.4em;
+}
+
+.publictransport, .electricity, .foodwaste {
+    background-color: #c2bab0;
+    box-shadow: black 2px 5px 15px;
 }
 
 /*STYLE FOR 3RD PAGE, ACTIONS TAKEN BY SP */
@@ -77,10 +86,48 @@ html{
 /*Style for rest of the page */
 
 /* Style for things SP done */
-.plants, .sensors, .CCC, .greenmark, .moreinfo {
+.plants, .CCC, .sensors, .greenmark, .moreinfo {
     background-color: #c2bab0;
 }
+.moreinfo a{
+    color: black;
+    font-weight: bold;
+    background-color: orange;
+    text-decoration: none;
+}
+.moreinfo a:hover {
+    color:#f0e2c0;
+    background-color: #cc8521;
+    text-decoration:bold;
+}
 /*Style for Environmental Sustainability in SP */
-.sustainability{
+.sustainability h1{
     color: #faf5e9;
+}
+.sustainability {
+    color: white;
+}
+
+/* STYLE FOR 4TH PAGE ABOUT ME */
+.introduction {
+    color: white;
+}
+.introduction h1 {
+    color: #faf5e9;
+}
+.introduction p {
+    background-color: rgba(0,0,0,0.2);
+}
+.interest, .personality {
+    background-color: #c2bab0;
+}
+.values h1, .interest h1, .personality h1 {
+    color: #335233;
+}
+li#integrity, li#respect, li#patience {
+    background: linear-gradient(90deg,#bfb19f, #c2bab0 );
+    background-color:#c2bab0;
+}
+li#integrity b, li#respect b, li#patience b {
+    color: #335233;
 }

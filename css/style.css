@@ -57,6 +57,9 @@ html{
     background-color: white;
     color: white;
 }
+.hero h1, section#opinion h2 {
+    text-shadow: black 13px 13px 15px;
+}
 
 section#opinion p {
     background-color: rgba(0,0,0,0.2);
@@ -122,15 +125,22 @@ section#opinion p {
 .introduction p {
     background-color: rgba(0,0,0,0.2);
 }
-.interest, .personality {
+.values li {
+    box-shadow: black 2px 5px 15px;
+}
+.interest {
     background-color: #c2bab0;
+    box-shadow: black 2px 5px 15px;
+}
+.personality {
+    background: linear-gradient(90deg, #c2bab0,#bfb19f );
+    box-shadow: black 2px 5px 15px;
 }
 .values h1, .interest h1, .personality h1 {
     color: #335233;
 }
 li#integrity, li#respect, li#patience {
     background: linear-gradient(90deg,#bfb19f, #c2bab0 );
-    background-color:#c2bab0;
 }
 li#integrity b, li#respect b, li#patience b {
     color: #335233;
